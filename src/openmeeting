@@ -1,0 +1,54 @@
+#~COMPILANT EL FONT
+apt-get install libgif-dev
+apt-get install libfreetype6-dev
+
+#des de la carpeta del paquet descomprimida
+./configure
+
+#instalamos el lliurex-swftools
+apt-get install lliurex-swftools
+
+#copiamos el mysql.connector al openmeetings
+cp mysql-connector-java-5.1.29-bin.jar /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/lib/
+
+#Ponemos de configuración el mysql
+cp /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/classes/META-INF/mysql_persistence.xml /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/classes/META-INF/persistence.xml
+
+#activamos el red5
+./red5.sh
+
+#lanzamos el configurador
+./admin.sh -i -v -user admin --password padentro -email admin@aula.llx -tz "Europe/Berlin" -group "admins" --db-type mysql --db-host localhost --db-user root --db-pass aeW0yae --db-name openmeetings  --smtp-server localhost --email-auth-user noreply@lliurex.net
+
+#intalamos el xpdf
+apt-get install xpdf
+
+#instalamos el jodconverter
+apt-get install xvfb jodconverter
+
+#establecer jodconverter path
+jod.path /usr/bin/jodconverter
+
+#instalamos el imagemagick
+apt-get install imagemagick
+
+#imagemagick path
+imagemagick_path /usr/bin
+
+#instalamos ghostscript
+apt-get install ghostscript
+
+#instalamos swftools de lliurex
+apt-get install lliurex-swftools
+
+#establecer swftools path
+swftools_path /usr/bin
+
+#establecer ffmpeg path
+ffmpeg_path /usr/local/bin/
+
+#instalamos sox
+apt-get install sox
+
+#establecemos el sox path
+sox_path /usr/bin/sox
