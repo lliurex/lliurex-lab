@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    remove | upgrade | deconfigure )
+                if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+
+                        . /usr/share/apache2/apache2-maintscript-helper
+                        apache2_invoke dissite lliurexlab
+                        invoke-rc.d apache2 reload
+                fi
+    ;;
+    failed-upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+#DEBHELPER#
+
+exit 0

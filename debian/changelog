@@ -1,0 +1,102 @@
+lliurex-lab (1.0) bionic; urgency=medium
+
+  * Bionic release
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 14 Mar 2019 12:41:41 +0100
+
+lliurex-lab (0.15.2) xenial; urgency=medium
+
+  * Fixing n4d reload
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 15 Mar 2017 17:42:01 +0100
+
+lliurex-lab (0.15.1) xenial; urgency=medium
+
+  * Fixed bug : On build iso $2 is void and break dpkg --compare-version
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 13 Dec 2016 12:07:35 +0100
+
+lliurex-lab (0.15-lliurex1) xenial; urgency=medium
+
+  * Changed dependencies from lliurex-openmmeetings to lliurex-openmeetings-installer
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Mon, 12 Dec 2016 10:08:07 +0100
+
+lliurex-lab (0.15) xenial; urgency=medium
+
+  * Added one-shot to add the "manually installed" mark
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Mon, 28 Nov 2016 08:13:23 +0100
+
+lliurex-lab (0.14) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 17 Feb 2016 16:10:39 +0100
+
+lliurex-lab (0.11) trusty; urgency=high
+
+  * replace restart by reload
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 27 Oct 2014 14:09:59 +0100
+
+lliurex-lab (0.10) Trusty; urgency=high
+
+  * Upload to Trusty
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 27 Oct 2014 13:08:51 +0100
+
+lliurex-lab (0.9) precise; urgency=high
+
+  * minor postinst changes
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 23 Jun 2014 10:53:59 +0200
+
+lliurex-lab (0.8) precise; urgency=high
+
+  * Added cname lliurexlab in case server is already initialized (13->14)
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 18 Jun 2014 11:30:50 +0200
+
+lliurex-lab (0.7) precise; urgency=high
+
+  * Apache configurations
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 04 Jun 2014 09:53:37 +0200
+
+lliurex-lab (0.6) precise; urgency=high
+
+  * Fixed www directory name
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 04 Jun 2014 09:45:16 +0200
+
+lliurex-lab (0.5) precise; urgency=low
+
+  * Added unconfigured site
+  * Added apache2 config file
+
+ -- dmontalva <dmontalva@david>  Tue, 03 Jun 2014 14:28:40 +0200
+
+lliurex-lab (0.4) precise; urgency=low
+
+  * UNRELEASED
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 29 May 2014 17:33:20 +0200
+
+lliurex-lab (0.3) precise; urgency=high
+
+  * Dummy upgrade
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 29 May 2014 17:32:33 +0200
+
+lliurex-lab (0.2) precise; urgency=low
+
+  * Removed openmeetings from here and added lliurex-openmeetings dependency
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 29 May 2014 17:29:48 +0200
+
+lliurex-lab (0.1) precise; urgency=low
+
+  * first release 
+
+ -- David Montalva Furio <montalva_dav@gva.es>  Mon, 17 Mar 2014 12:26:00 +0100
