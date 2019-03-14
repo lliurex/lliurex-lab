@@ -1,1 +1,3 @@
-install/*  /
+sites-available/* /etc/apache2/sites-available/
+one-shot/* /usr/share/lliurex-lab/one-shot/
+lliurexlab/* /var/www/lliurexlab
