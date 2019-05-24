@@ -9,7 +9,7 @@ apt-get install libfreetype6-dev
 apt-get install lliurex-swftools
 
 #copiamos el mysql.connector al openmeetings
-cp mariadb-java-client-2.4.1.jar /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/lib/
+cp mysql-connector-java-8.0.16.jar /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/lib/
 
 #Ponemos de configuración el mysql
 cp /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/classes/META-INF/mysql_persistence.xml /var/www/lliurex-lab/webapps/openmeetings/WEB-INFO/classes/META-INF/persistence.xml
